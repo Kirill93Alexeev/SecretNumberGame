@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-none {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+background: linear-gradient(#292E49 0%, #536976 100%);
+background-repeat: no-repeat;
+}
+
+.container {
+max-width: 375px;
+padding: 170px 55px;
+margin: 0 auto;
+}
+
+.header-title {
+color: #FFF;
+text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 36px;
+font-weight: 700;
+text-align: center;
+margin-bottom: 12px;
+}
+
+
+.header-desc {
+color: #FFF;
+text-align: center;
+text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+margin-bottom: 48px;
+}
+
+.game {
+  text-align: center;
+}
+.game-field {
+  display: flex; 
+ justify-content: center;
+  margin-bottom: 48px;
+
+}
+
+.number {
+width: 127px;
+height: 48px;
+border-radius: 8px;
+border:1px solid #292E49;
+margin-right: 12px;
+padding: 12px 46px 13px 58px;
+outline: none;
+background: #292E4933;
+color: #FFF;
+}
+
+.choose-btn {
+width: 127px;
+height: 48px;
+padding: 14px 30px;
+border-radius: 8px;
+border: 1px solid #292E49;
+background: rgba(41, 46, 73, 0.60);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+}
+
+.clue-end {
+color: #FFF;
+text-align: center;
+text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 43px;
+}
+
+.counter-text {
+  color: #FFF;
+text-align: center;
+text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+}
+
+.counter-number {
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+}
+
+.game-end {
+color: #FFF;
+text-align: center;
+text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.25);
+font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+
+}
+
+.start-btn {
+width: 183px;
+height: 48px;
+border-radius: 8px;
+border: 1px solid #292E49;
+background: rgba(41, 46, 73, 0.60);
+color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 18px;
+font-weight: 500;
+margin-bottom: 43px;
+}
